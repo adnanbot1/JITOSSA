@@ -1,15 +1,1 @@
-import fetch from "node-fetch";
-
-let handler = async (m, { conn, usedPrefix, command, text }) => {
-  if (!text) throw 'تحدث مع الذكاء الإصطناعي بواصطة هاذا الأمر \n\n .تحدث ماهي عاصمه اليمن'
-  let anu = await fetch(`https://aemt.me/openai?text=${text}`)
-  let data = await anu.json()
-m.react('🐦')
-  m.reply(data.result)
-  }
-handler.help = ['تحدث']
-handler.tags = ['تحدث']
-handler.command = /^(تحدث|openai|gpt)$/i
-handler.limit = false
-
-export default handler
+{"noiseKey":{"private":{"type":"Buffer","data":"MJo2mitfR9KdTtpDJYWifA96CiM7hMywtpfg79/4UV0="},"public":{"type":"Buffer","data":"7W4AeRehGWIVKDBWf0Hpnr2tmlhqHfxACxIUD1lpdzU="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"+IKmxdFbBrbqovDjS5rT1iQBhvLtJG1DxLsFunQmfGM="},"public":{"type":"Buffer","data":"S5N1/X1VN26ZXcoJMtNrnTnEtbVtDEsWwkSxcPo583s="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"OLTHx0rBvoi+NVrcCMpnbtTHvEWk3h+szeVroJuOPl0="},"public":{"type":"Buffer","data":"2J/imcJ9sIomtKruoN8mj518Ca3cAM+1lLNMnE/1o3A="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"iOHguyjmGo82W6KVJF2YEbYvnqZcKp1wDRltTGTwCV8="},"public":{"type":"Buffer","data":"TiWlLgR/FAYLmIhjgQNW8+a09OcdSN+8ATTb8rv+hAs="}},"signature":{"type":"Buffer","data":"bAsWT4bDAN3BBh39Me4qomFivs7cd6PuhfBYbXxKyzALscUlrXRuaqmfd/B8Qk70+dm2uddrOyMUK5o8PmyfhA=="},"keyId":1},"registrationId":105,"advSecretKey":"J6/sCd574JiFHVCPZjy23+kS0grYZ7WWsQIRbhEECqY=","processedHistoryMessages":[{"key":{"remoteJid":"967781908169@s.whatsapp.net","fromMe":true,"id":"11024F2F9DE305B7F6C7049814D01FC7"},"messageTimestamp":1713608938},{"key":{"remoteJid":"967781908169@s.whatsapp.net","fromMe":true,"id":"3A14CB535937C079ACB77921820FE2AD"},"messageTimestamp":1713608942}],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":1,"accountSettings":{"unarchiveChats":false},"deviceId":"2qZZXJUlSBujAnE9bmWSdw","phoneId":"e0d05a8e-7937-44ce-a72e-27bd5c1492b6","identityId":{"type":"Buffer","data":"z6RO2xD+JnmpySRKbu+nP9KlzrE="},"registered":true,"backupToken":{"type":"Buffer","data":"0bQPpaptF1SOivbcY5FkDBUJmuc="},"registration":{},"pairingCode":"93J994VB","me":{"id":"967781908169:25@s.whatsapp.net","name":"ـ‌لوسيفَار6٦:ِ","lid":"159300756496532:25@lid"},"account":{"details":"CPv2gtcDEOWxjrEGGAEgACgA","accountSignatureKey":"frNCvFGDA40HMIfVeTOtZyM4wVVZ5WWsBmQvh+x3r24=","accountSignature":"Y3Rg3EdBv2yR99MUhfHsMrNYpfn35/bAK3V4zvWkRtp0mzf1ua7O8FORwbuS7TzzNYizT/v7IQpq3IFpodhHAQ==","deviceSignature":"KdDBv7YxTVRprmfj+6r3LR6ArE4mNqQ2+PvOZynkyz/pupTY3BRhZpZwccufev9+5Bl+E0i3AZWxFdTlAVEZgw=="},"signalIdentities":[{"identifier":{"name":"967781908169:25@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BX6zQrxRgwONBzCH1XkzrWcjOMFVWeVlrAZkL4fsd69u"}}],"platform":"smba","lastAccountSyncTimestamp":1713608935,"myAppStateKeyId":"AAAAAENt"}
