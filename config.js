@@ -11,19 +11,19 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['212670941551', 'Omar !', true],
+  ['967735339177', 'لوسيفار !', true],
 ];
 
-global.suittag = ['212670941551'];
-global.prems = ['212670941551'];
+global.suittag = ['967735339177'];
+global.prems = ['967735339177'];
 
-global.packname = 'JITOOSA';
-global.author = 'by';
-global.wm = 'JITOSSA';
-global.titulowm = 'JITOSSA';
+global.packname = 'لوسيفار';
+global.author = 'لاتسرق حقوق';
+global.wm = 'لوسيفار';
+global.titulowm = 'لوسيفار';
 global.titulowm2 = `OMAR`
-global.igfg = 'JITISSA';
-global.wait = '> _*جارى إرسال الطلب*_ _🏃🏻‍♀️..._\n\n---------\n*▢ تابعني على إنستجرام 🧚* \n www.instagram.com/ovmar_1';
+global.igfg = 'لوسيفار';
+global.wait = '> _*جارى إرسال الطلب*_ _🏃🏻‍♀️..._\n\n---------\n*▢   تابعني علا رقمي لحدوث الاخطأ 🧚* \n https://wa.me/+967735339177';
 global.rwait = '🙋🏻‍♀️';
 
 global.mods = [];
