@@ -29,8 +29,8 @@ let handler = async (m, { conn }) => {
   } 
 }
 
-handler.help = ['udemy'];
+handler.help = ['دروات'];
 handler.tags = ['search'];
-handler.command = ['udemy'];
+handler.command = ['دروات'];
 
 export default handler;
