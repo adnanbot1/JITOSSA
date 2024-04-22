@@ -23,14 +23,14 @@ let tags = {
 }
 const defaultMenu = {
     before: `
-*JITOSSA MD*
+*قائمه الاوامر*
 
 ┌  ➦ _w9t lbot : %uptime_
-│  ➦ _lyoum :  %week_
-│  ➦ _lw9t : %time_
-│  ➦ _tari5 : %date_
-│  ➦ _total user : %totalreg_
-└  ➦ Prefix Used : *[ %p ]*
+│  ➦ _بوم :  %week_
+│  ➦ _الوقت : %time_
+│  ➦ _التاريخ : %date_
+│  ➦ _نشطين في البوت : %totalreg_
+└  ➦ حط نقطة بدايه كل امر : *[ %p ]*
 
 %readmore
 `.trimStart(),
