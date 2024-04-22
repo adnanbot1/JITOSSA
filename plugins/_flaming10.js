@@ -6,8 +6,8 @@ let handler = async (m, { conn, args }) => {
   let res = `https://api.tiodevhost.my.id/api/photooxy/coffee-cup?text=${response[0]}`
   conn.sendFile(m.chat, res, 'coffee-cu.jpg', `> _JITOSSA LOGO_ \n\n www.instagram.com/ovmar_1`, m, false)
 }
-handler.help = ['logo-coffee'].map(v => v + ' <text>')
-handler.tags = ['maker'']
+handler.help = ['لوجو'].map(v => v + ' <text>')
+handler.tags = ['لوجو'']
 handler.command = /^(logo-coffee)$/i
 
 export default handler
