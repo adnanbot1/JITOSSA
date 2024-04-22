@@ -140,10 +140,10 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 text: text,
 contextInfo: {
 externalAdReply: {
-title: 'JITOSSA',
-body: "WELCOME TO JITOSSA",
-thumbnailUrl: 'https://telegra.ph/file/51a76af5ac51cc5bd73b2.jpg',
-sourceUrl: 'https://instagram.com/OVMAR_1',
+title: 'لوسيفار',
+body: "بوت لوسيفار",
+thumbnailUrl: 'https://telegra.ph/file/60458bf4176030572cb9a.jpg',
+sourceUrl: 'https://wa.me/+967735339177',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
@@ -160,9 +160,9 @@ renderLargerThumbnail: true
     throw e
   }
 }
-handler.help = ['menu']
+handler.help = ['اوامر']
 handler.tags = ['infobot']
-handler.command = ['menu','j','list'] 
+handler.command = ['اوامر','j','list'] 
 handler.register = false
 
 
