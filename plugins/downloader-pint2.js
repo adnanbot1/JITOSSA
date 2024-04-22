@@ -5,8 +5,8 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
   const json = await pinterest(text)
   conn.sendFile(m.chat, json.getRandom(), 'pinterest.jpg', `instagram.com/ovmar_1`.trim(), m)
 }
-handler.help = ['pinterest2']
+handler.help = ['بنترست']
 handler.tags = ['downloader']
-handler.command = ['pinterest2'] 
+handler.command = ['بنترست'] 
 
 export default handler
