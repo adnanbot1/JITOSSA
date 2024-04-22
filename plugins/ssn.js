@@ -1,6 +1,6 @@
 let handler = async(m, { conn, text , command }) => {
-if (command ==  تشكيل ) {
-if (!text) throw  *مثال* :\n*.تشكيل* ♥♥ ;
+if (command ==  focus || command == تشكيل) {
+if (!text) throw  *مثال* :\n*.focus* ♥♥ ;
 let awikwok = `👇🏿👇🏿👇🏿👇🏿👇🏿👇🏿👇🏿👇🏿👇🏿👇🏿👇🏿
 👉🏿👇🏾👇🏾👇🏾👇🏾👇🏾👇🏾👇🏾👇🏾👇🏾👈🏿
 👉🏿👉🏾👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽👈🏾👈🏿
@@ -17,6 +17,7 @@ m.reply(awikwok, null, m.mentionedJid ? {
 } : {})
 }
 }
-handler.command = handler.help = [ تشكيل ]
+handler.command = /^(تشكيل|focus)$/i
+ handler.help = [ focus ]
 handler.tags = [ tools ]
 export default handler
