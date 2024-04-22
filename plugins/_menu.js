@@ -25,7 +25,7 @@ const defaultMenu = {
     before: `
 *قائمه الاوامر*
 
-┌  ➦ _w9t lbot : %uptime_
+┌  ➦ _استخدم البوت فيمأ يرضي الله : %uptime_
 │  ➦ _بوم :  %week_
 │  ➦ _الوقت : %time_
 │  ➦ _التاريخ : %date_
