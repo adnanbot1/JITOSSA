@@ -3,9 +3,9 @@ let handler = async (m, { conn, text }) => {
   let mentionedJid = [m.sender]
   conn.reply(m.chat, tag, m, { contextInfo: { mentionedJid }})
 }
-handler.help = ['tagme']
+handler.help = ['انا']
 handler.tags = ['group']
-handler.command = /^tagme$/i
+handler.command = /^انا$/i
 
 handler.group = false
 
