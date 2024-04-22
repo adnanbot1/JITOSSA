@@ -17,8 +17,8 @@ let handler = async (m, {conn, text }) => {
   conn.sendFile(m.chat, tes[0].thumbnail, 'yts.jpeg', teks, m)
 }
 
-handler.help = ['yts <query>']
+handler.help = ['بحث <query>']
 handler.tags = ['search']
-handler.command = /^yts(earch)?$/i
+handler.command = /^بحث(earch)?$/i
 
 export default handler
