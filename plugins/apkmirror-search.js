@@ -15,9 +15,9 @@ let handler = async (m, { conn, args, text }) => {
         await m.reply("حدث خطأ أثناء البحث عن التطبيقات")
     }
 }
-handler.help = ["apkms <الاستعلام>"]
+handler.help = ["بحت تطبيق"]
 handler.tags = ["applications"]
-handler.command = /^(apkms)$/i
+handler.command = /^(بحث تطبيق)$/i
 export default handler
 
 async function SearchApk(query) {
