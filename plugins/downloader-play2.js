@@ -18,7 +18,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
   let wm = 'R'; // علامة المائية
 
   // إعداد الرسالة لإرسال معلومات الفيديو
-  let captvid = `╭──── 〔 JITOSSA SONG 〕 ─⬣
+  let captvid = `╭──── 〔 بوت لوسيفار 〕 ─⬣
   ⬡ العنوان: ${title}
   ⬡ المدة: ${timestamp}
   ⬡ المشاهدات: ${views}
@@ -74,8 +74,8 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
   });
 };
 
-handler.help = ['play2'].map((v) => v + ' <query>'); // رسالة المساعدة
+handler.help = ['شغل'].map((v) => v + ' <query>'); // رسالة المساعدة
 handler.tags = ['downloader']; // الوسوم المرتبطة بالدالة
-handler.command = /^(play2|song2|lagu2|music2)$/i; // الأمر لتنشيط الدالة
+handler.command = /^(شغل|song2|lagu2|music2)$/i; // الأمر لتنشيط الدالة
 
 export default handler; // تصدير الدالة handler
