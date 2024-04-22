@@ -15,7 +15,7 @@ let handler = async (m, { conn, text }) => {
 		console.error(e)
 		if (Buffer.isBuffer(e)) stiker = e
 	} finally {
-		if (stiker) conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
+		if (stiker) conn.sendMessage(m.chat, { ملصق: ملصق }, { quoted: m })
 		else throw 'Conversion failed'
 	}
 }
