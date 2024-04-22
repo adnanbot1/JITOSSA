@@ -15,7 +15,7 @@ let handler = async (m, { conn, text, participants }) => {
 
 handler.help = ['منشن']
 handler.tags = ['group']
-handler.command = /^(tagall)$/i
+handler.command = /^(منشن)$/i
 
 handler.admin = true
 handler.group = true
