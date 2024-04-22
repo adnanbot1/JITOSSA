@@ -13,7 +13,7 @@ let handler = async (m, { conn, text, participants }) => {
 	} else await conn.reply(m.chat, teks, fkontak, { mentions: participants.map(a => a.id) })
 }
 
-handler.help = ['tagall']
+handler.help = ['منشن']
 handler.tags = ['group']
 handler.command = /^(tagall)$/i
 
