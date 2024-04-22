@@ -7,9 +7,9 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     m.reply(`✅ تم طرد العضو بنجاح`) 
 }
 
-handler.help = ['kick']
+handler.help = ['طرد']
 handler.tags = ['group']
-handler.command = ['kick', 'expulsar'] 
+handler.command = ['طرد', 'expulsar'] 
 handler.admin = true
 handler.group = true
 handler.botAdmin = true
