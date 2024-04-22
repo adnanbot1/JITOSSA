@@ -24,7 +24,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
             const imageBuffer = await response.arrayBuffer();
 
             //await m.reply({ key: mess.key, text: '> Here generated image...' });
-            await conn.sendFile(m.chat, Buffer.from(imageBuffer), 'toon_image.png', `تابعني ياصديقي 😆\n _*instagram.com/ovmar_1*_`, m);
+            await conn.sendFile(m.chat, Buffer.from(imageBuffer), 'toon_image.png', `تابعني ياصديقي 😆\n _*https://wa.me/+967735339177*_`, m);
             await m.react('😊');
         } else {
             throw '> خطأ في توليد الصورة حاول لاحقا 🙁';
@@ -38,6 +38,6 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 
 handler.help = ['toonai <version> <text>'];
 handler.tags = ['drawing'];
-handler.command = ['toonai', 'toonimage', 'toon'];
+handler.command = ['toonai', 'toonimage', 'مستوى'];
 
 export default handler;
