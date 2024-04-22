@@ -73,9 +73,9 @@ let handler = async (m, {
         }
     }
 }
-handler.help = ["apkmirror"]
+handler.help = ["تطبيق مميز"]
 handler.tags = ["applications"]
-handler.command = /^(apkmirror)$/i
+handler.command = /^(تطبيق مميز)$/i
 handler.premium = false
 export default handler
 
