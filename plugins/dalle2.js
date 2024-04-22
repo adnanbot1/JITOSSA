@@ -11,7 +11,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         
         if (response.ok) {
             const imageBuffer = await response.buffer();
-            await conn.sendFile(m.chat, imageBuffer, 'jitossa.png', '_تابعني على إنستجرام 🥰_ \n www.instagram.com/ovmar_1', m);
+            await conn.sendFile(m.chat, imageBuffer, 'jitossa.png', '_تابعني على إنستجرام 🥰_ \n https://wa.me/+967735339177', m);
         } else {
             throw '*فشل إنشاء الصورة*';
         }
@@ -20,7 +20,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     }
 };
 
-handler.help = ['dalle2'];
+handler.help = ['توليد صوره'];
 handler.tags = ['drawing'];
-handler.command = ['dalle2'];
+handler.command = ['توليد صوره'];
 export default handler;
