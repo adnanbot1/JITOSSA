@@ -17,6 +17,6 @@ m.reply(awikwok, null, m.mentionedJid ? {
 } : {})
 }
 }
-handler.command = handler.help = ['focus']
+handler.command = handler.help = ['تشكيل']
 handler.tags = ['tools']
 export default handler
