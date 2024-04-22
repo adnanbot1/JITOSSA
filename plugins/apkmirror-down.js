@@ -27,9 +27,9 @@ let handler = async (m, {
         await m.reply(eror)
     }
 }
-handler.help = ["apkmdown <query>"]
-handler.tags = ["applications"]
-handler.command = /^(apkmdown)$/i
+handler.help = ["ميديا"]
+handler.tags = ["ميديا"]
+handler.command = /^(ميديا)$/i
 export default handler
 
 async function DownApk(query) {
