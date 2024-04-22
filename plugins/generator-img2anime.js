@@ -37,9 +37,9 @@ let handler = async (m, {
         await m.reply(eror)
     }
 }
-handler.help = ["img2anim"].map(v => v + " (Balas foto)")
+handler.help = ["الادمان"].map(v => v + " (Balas foto)")
 handler.tags = ["drawing"]
-handler.command = /^(img2anim)$/i
+handler.command = /^(الادمان)$/i
 handler.limit = true
 export default handler
 
