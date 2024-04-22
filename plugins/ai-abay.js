@@ -30,8 +30,8 @@ const handler = async (m, { text }) => {
   }
 };
 
-handler.help = ['abay *النص*'];
+handler.help = ['مساعده *النص*'];
 handler.tags = ['ai'];
-handler.command = /^(abay)$/i;
+handler.command = /^(مساعده)$/i;
 
 export default handler;
