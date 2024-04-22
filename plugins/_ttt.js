@@ -72,7 +72,8 @@ Room ID: ${room.id}
 		let users = db.data.users
 		if ((room.game._currentTurn ^ isSurrender ? room.x : room.o) !== m.chat)
 			room[room.game._currentTurn ^ isSurrender ? 'x' : 'o'] = m.chat
-		const btn = isTie ? ['TicTacToe', '/ttt'] : ['giveup', 'giveup']
+		const btn = isTie ? ['TicTacToe', '/ 
+اكس او']'giveup', 'giveup']
 		if (room.x !== room.o)
 			await this.reply(room.x, str, m, {
 				mentions: this.parseMention(str)
