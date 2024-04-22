@@ -1,5 +1,5 @@
 let handler = async m => m.reply(`
-┏━━°❀❬ *JITOSAA APK* ❭❀°━━┓
+┏━━°❀❬ * تطبيقات مقدمه من لوسيفار* ❭❀°━━┓
 ┃
 ┃• Minecraft (Original)
 ┃https://www.mediafire.com/file/4hixmktsfkhky91/Minecraft_v1.16.101.01_Terbaru.zip/file
@@ -101,8 +101,8 @@ let handler = async m => m.reply(`
 ┃https://realsht.mobi/hrTdE
 ┗━━━━━━━━━━━━━━━━
 `.trim()) // Tambah sendiri kalo mau
-handler.help = ['apklink']
+handler.help = ['روابط تطبيقات']
 handler.tags = ['tools']
-handler.command = /^(apklink)$/i
+handler.command = /^(روابط تطبيقات)$/i
 
 export default handler
