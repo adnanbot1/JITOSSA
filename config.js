@@ -17,10 +17,10 @@ global.owner = [
 global.suittag = ['967735339177'];
 global.prems = ['967735339177'];
 
-global.packname = 'لوسيفار';
-global.author = 'لاتسرق حقوق';
-global.wm = 'لوسيفار';
-global.titulowm = 'لوسيفار';
+global.packname = 'هيسوكا';
+global.author = ' بوت هيسوكا';
+global.wm = 'هيسوكا';
+global.titulowm = 'هيسوكا';
 global.titulowm2 = `OMAR`
 global.igfg = 'لوسيفار';
 global.wait = '> _*جارى إرسال الطلب*_ _🏃🏻‍♀️..._\n\n---------\n*▢   تابعني علا رقمي لحدوث الاخطأ 🧚* \n https://wa.me/+967735339177';
