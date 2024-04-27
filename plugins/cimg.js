@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 import cheerio from 'cheerio';
 
 let handler = async (m, { conn, text }) => {
-    if (!text) throw 'قدم نصا للبحث عن صورة تشبهه \n\n مثال للإستخدام \n .cimg boy and girl';
+    if (!text) throw 'قدم نصا للبحث عن صورة تشبهه \n\n مثال للإستخدام \n .بحث انمي ون بيس';
     m.react('⌛');
     let msg = encodeURIComponent(text);
     let res = await fetch(`https://www.bing.com/images/create?q=${msg}`);
