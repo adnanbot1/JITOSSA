@@ -12,12 +12,12 @@ let handler = async (m, { conn, text }) => {
     if (!imageUrl) throw 'No results found for the given query';
     let imageRes = await fetch(imageUrl);
     let buffer = await imageRes.buffer();
-    conn.sendFile(m.chat, buffer, 'image.png', `_تابعني على إنستجرام 🥰_ \n www.instagram.com/ovmar_1`, m);
+    conn.sendFile(m.chat, buffer, 'image.png', `_تم تنفيذ طلبك!_`, m);
     m.react('✅');
 }
 
-handler.help = ['cimg <text>'];
+handler.help = [' بحث<صور عشوائي>'];
 handler.tags = ['drawing'];
-handler.command = /^cimg$/i;
+handler.command = /^بحث/i;
 
 export default handler;
