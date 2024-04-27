@@ -4,7 +4,7 @@ let love = `
 *اطلب منه/ا ان تصبح صديقتك*
 `.trim()
 m.reply(love, null, { mentions: conn.parseMention(love) })}
-handler.help = ['love']
-handler.tags = ['fun']
+handler.help = ['نسبة']
+handler.tags = ['للمرح!']
 handler.command = /^(نسبه|نسبة)$/i
 export default handler
