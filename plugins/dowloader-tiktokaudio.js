@@ -75,7 +75,7 @@ ${spaces}*[ الصوت ]*
 }
 
 handler.tags = ['downloader']
-handler.command = /^(tiktokaudio)$/i
+handler.command = /^(تيكتوك)$/i
 handler.limit = true
 
 export default handler
