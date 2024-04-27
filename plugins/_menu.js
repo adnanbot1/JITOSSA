@@ -142,8 +142,8 @@ contextInfo: {
 externalAdReply: {
 title: 'بوت هيسوكا',
 body: "لمراسلتي اضغط انا",
-thumbnailUrl: 'https://telegra.ph/file/aca2aeaeca676997396f6.jpg',
-sourceUrl: 'https://wa.me/+4917647265740',
+thumbnailUrl: 'https://telegra.ph/file/60458bf4176030572cb9a.jpg',
+sourceUrl: 'https://wa.me/+967735339177',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
@@ -160,9 +160,9 @@ renderLargerThumbnail: true
     throw e
   }
 }
-handler.help = ['اوامر']
+handler.help = ['الاوامر']
 handler.tags = ['infobot']
-handler.command = ['اوامر','j','list'] 
+handler.command = ['الاوامر','j','list'] 
 handler.register = false
 
 
