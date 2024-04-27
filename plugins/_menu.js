@@ -140,7 +140,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 text: text,
 contextInfo: {
 externalAdReply: {
-title: 'بوت هيسوكا',
+title: 'بوت لوسيفار',
 body: "لمراسلتي اضغط انا",
 thumbnailUrl: 'https://telegra.ph/file/60458bf4176030572cb9a.jpg',
 sourceUrl: 'https://wa.me/+967735339177',
