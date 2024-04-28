@@ -4,13 +4,13 @@ let name = conn.getName(who)
 const pp = '../Menu2.jpg'
 
 let love = `
-JITOSSA MD 
+لوسيفار 
 
 البوت يعمل جيدا %100 𖣐
 
 التواصل مع المطور على واتساب 𖣐
 
-+212670941551 𖣐
+https://wa.me/+967735339177 𖣐
 `
 
 conn.sendMessage(m.chat, {text: love, mentions: [m.sender]}, {quoted: m})
@@ -18,9 +18,9 @@ conn.sendMessage(m.chat, {text: love, mentions: [m.sender]}, {quoted: m})
 //conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake, )
 
 }
-handler.help = ['alive']
+handler.help = ['تحديث للبوت']
 handler.tags = ['owner']
-handler.command = /^(alive)$/i
+handler.command = /^(رست)$/i
 
 handler.register = false
 
