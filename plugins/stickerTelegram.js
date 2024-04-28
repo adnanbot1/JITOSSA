@@ -68,9 +68,9 @@ const handler = async (m, {
     }
 };
 
-handler.help = ['stickertele [query]', 'stickertelegram [query]|[angka]', 'telesticker [query]|all', 'telegramsticker [query]|random'];
+handler.help = ['تلجراف [query]', 'stickertelegram [query]|[angka]', 'telesticker [query]|all', 'telegramsticker [query]|random'];
 handler.tags = ['sticker'];
-handler.command = /^(stickertele(gram)?|telesticker|telegramsticker)$/i;
+handler.command = /^(تلجراف(gram)?|تلجراف|telegramsticker)$/i;
 handler.limit = 1;
 
 export default handler;
