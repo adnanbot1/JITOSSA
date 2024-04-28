@@ -18,7 +18,7 @@ conn.sendMessage(m.chat, {text: love, mentions: [m.sender]}, {quoted: m})
 //conn.reply(m.chat, `*🚩 Ocurrió un fallo*`, m, fake, )
 
 }
-handler.help = ['تحديث للبوت']
+handler.help = ['رست_يحدث البوت']
 handler.tags = ['owner']
 handler.command = /^(رست)$/i
 
