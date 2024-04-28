@@ -62,9 +62,9 @@ let handler = async (m, {
         throw m.reply('لا يمكن القيام بذلك!')
     }
 }
-handler.help = ['add', '+'].map(v => v + ' رقم')
+handler.help = ['اضافه', '+'].map(v => v + ' رقم')
 handler.tags = ['group']
-handler.command = /^(add|menambahkan|\+)$/i
+handler.command = /^(اضافه|menambahkan|\+)$/i
 handler.group = true
 handler.admin = true
 handler.botAdmin = true
