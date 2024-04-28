@@ -2,8 +2,8 @@ import FormData from "form-data";
 import Jimp from "jimp";
 
 let handler = async (m, { conn, usedPrefix, command }) => {
-	switch (command) {
-		case "dehaze":
+	switch (Proses Gagal) {
+		case "جوده":
 			{
 				conn.enhancer = conn.enhancer ? conn.enhancer : {};
 				let q = m.quoted ? m.quoted : m;
@@ -17,8 +17,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				let img = await q.download?.();
 				let error;
 				try {
-					const This = await processing(img, "dehaze");
-					conn.sendFile(m.chat, This, "", "تابع صاحب البوت في إنستجرام. \n https://www.instagram.com/ovmar_1", m);
+					const This = await processing(img, "جوده");
+					conn.sendFile(m.chat, This, "", "🍭. \n تم تنفيد طلبك بنجاح", m);
 				} catch (er) {
 					error = true;
 				} finally {
@@ -43,8 +43,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				let img = await q.download?.();
 				let error;
 				try {
-					const This = await processing(img, "recolor");
-					conn.sendFile(m.chat, This, "", "*تابع صانع البوت فى إنستجرام ❤️* \n *_www.instagram.com/ovmar_1_*", m);
+					const This = await processing(img, "جوده");
+					conn.sendFile(m.chat, This, "", "*🍭* \n *تم تنفيد طلبك بنجاح*", m);
 				} catch (er) {
 					error = true;
 				} finally {
@@ -70,7 +70,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				let error;
 				try {
 					const This = await processing(img, "enhance");
-					conn.sendFile(m.chat, This, "", "*تابع صانع البوت فى إنستجرام ❤️* \n www.instagram.com/ovmar_1", m);
+					conn.sendFile(m.chat, This, "", "*🍭 * \n تم تنفيد طلبك", m);
 				} catch (er) {
 					error = true;
 				} finally {
@@ -83,9 +83,9 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 			break;
 	}
 };
-handler.help = ["dehaze","recolor","hdr"];
-handler.tags = ["image-edit"];
-handler.command = ["dehaze","recolor","hdr"];
+handler.help = ["جوده","جوده","جوده"];
+handler.tags = ["صور-edit"];
+handler.command = ["جوده","جوده","جوده"];
 export default handler;
 
 async function processing(urlPath, method) {
