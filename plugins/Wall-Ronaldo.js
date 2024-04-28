@@ -6,5 +6,5 @@ conn.sendFile(m.chat, ronaldo, 'error.jpg', `*كريس عمك*\n تم تنفيد
 //conn.sendButton(m.chat, "*Siiiuuuuuu*", author, ronaldo, [['⚽ NEXT ⚽', `${usedPrefix + command}`]], m)}
 handler.help = ['رونالدو', 'cr7']
 handler.tags = ['image-edit']
-handler.command = /^(رونالد|cr7)$/i
+handler.command = /^(رونالدو|cr7)$/i
 export default handler
