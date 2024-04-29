@@ -4,39 +4,33 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
         message: {
           interactiveMessage: {
             header: {
-              title: 'الازرار'
+              title: '*🎗️ قـائـمـة الـاوامــر🎗️*'
             },
             body: {
-              text: 'تست'
+              text: '🧿 افتح القائمة بواسطة الزر\n🍒 لا تلعب كثير في القائمة'
             },
             nativeFlowMessage: {
               buttons: [
                 {
                   name: 'single_select',
                   buttonParamsJson: JSON.stringify({
-                    title: 'اضغط',
+                    title: 'دوس عليا 💔',
                     sections: [
                       {
-                        title: 'القائمة',
-                        highlight_label: 'تست',
+                        title: 'List',
+                        highlight_label: 'ON',
                         rows: [
                           {
-                            header: 'منشن',
-                            title: 'منشن',
+                            header: '☘️ قـسـم الـنـظـام',
+                            title: '.النظام_كود',
                             description: '',
-                            id: '.منشن'
-                          },
-                                        {
-                            header: 'الدعم',
-                            title: 'الدعم',
-                            description: '',
-                            id: '.الدعم'
+                            id: '.الاوامر'
                           },
                           {
-                            header: 'المطور',
-                            title: 'المطور',
+                            header: '👑 قـسـم الـمـطـور',
+                            title: '.المطور_كود',
                             description: '',
-                            id: '.مطور'
+                            id: '967735339177'
                           }
                         ]
                       }
@@ -55,6 +49,6 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
 handler.help = ['info']
 handler.tags = ['main']
-handler.command = ['الازرار']
+handler.command = ['القائمة']
 
 export default handler
