@@ -14,21 +14,21 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                 {
                   name: 'single_select',
                   buttonParamsJson: JSON.stringify({
-                    title: 'دوس عليا 💔',
+                    title: 'دوس عليا ',
                     sections: [
                       {
                         title: 'List',
                         highlight_label: 'ON',
                         rows: [
                           {
-                            header: '☘️ قـسـم الـنـظـام',
-                            title: '.النظام_كود',
-                            description: '.الاوامر',
-                            id: '.الاوامر'
+                            header: 'لعرض قائمة البوت',
+                            title: '.الاوامر',
+                            description: '',
+                            id: ''
                           },
                           {
                             header: '👑 قـسـم الـمـطـور',
-                            title: '.المطور_كود',
+                            title: '.مطور البوت',
                             description: '967735339177',
                             id: '967735339177'
                           }
@@ -49,6 +49,6 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
 handler.help = ['info']
 handler.tags = ['main']
-handler.command = ['القائمة']
+handler.command = ['الاوامر']
 
 export default handler
