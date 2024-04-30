@@ -26,7 +26,7 @@ const defaultMenu = {
 *قائمه الاوامر*
 
 ┌  ➦ _استخدم البوت فيمأ يرضي الله : %uptime_
-│  ➦ _بوم :  %week_
+│  ➦ _يوم :  %week_
 │  ➦ _الوقت : %time_
 │  ➦ _التاريخ : %date_
 │  ➦ _نشطين في البوت : %totalreg_
@@ -142,7 +142,7 @@ contextInfo: {
 externalAdReply: {
 title: 'بوت لوسيفار',
 body: "لمراسلتي اضغط انا",
-thumbnailUrl: 'https://telegra.ph/file/60458bf4176030572cb9a.jpg',
+thumbnailUrl: 'https://telegra.ph/file/2d425ea5760c1c00babbe.mp4',
 sourceUrl: 'https://wa.me/+967735339177',
 mediaType: 1,
 renderLargerThumbnail: true
@@ -162,7 +162,7 @@ renderLargerThumbnail: true
 }
 handler.help = ['الاوامر']
 handler.tags = ['infobot']
-handler.command = ['الاوامر','j','list'] 
+handler.command = ['الاوامر','j','menu'] 
 handler.register = false
 
 
