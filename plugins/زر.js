@@ -1,4 +1,3 @@
-
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     conn.relayMessage(m.chat, {
       viewOnceMessage: {
