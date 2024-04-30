@@ -18,7 +18,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                     sections: [
                       {
                         title: 'List',
-                        highlight_label: 'ON',
+                        highlight_label: 'عمك لوسيفار',
                         rows: [
                           {
                             header: 'لعرض قائمة البوت',
@@ -29,8 +29,8 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                           {
                             header: '👑 قـسـم الـمـطـور',
                             title: '.مطور البوت',
-                            description: '967735339177',
-                            id: '967735339177'
+                            description: 'لوسيفار',
+                            id: 'لوسيفار'
                           }
                         ]
                       }
