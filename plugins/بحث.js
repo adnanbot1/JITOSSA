@@ -29,5 +29,5 @@ conn.sendFile(m.chat, result.images.jpg.image_url, 'error.jpg', AnimeInfo, m)
 } catch {
 throw `*[❗] خطأ، حاول مرة أخرى*`  
 }}
-handler.command = /^(anime|انمي)$/i
+handler.command = /^(انمي2|انمي)$/i
 export default handler
