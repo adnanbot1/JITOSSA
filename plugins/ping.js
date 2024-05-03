@@ -3,7 +3,7 @@ import speed from 'performance-now'
 
 let handler = async (m, { conn }) => {
 
-  let pingMsg = await conn.sendMessage(m.chat, {text: 'جارى حساب سرعة الأنترنت...'})
+  let pingMsg = await conn.sendMessage(m.chat, {text: 'جارى حساب سرعة عاصمتك...'})
 
   let timestamp = speed()
 
@@ -16,7 +16,8 @@ let handler = async (m, { conn }) => {
         key: pingMsg.key,
         type: 14,
         editedMessage: {
-          conversation: `*_سرعة النت ${latency} !_*` 
+          conversation: `*_نسبه عاصمت قلبك لعدنان 
+ ${latency} !_*` 
         }
       }
     }, {})
@@ -25,8 +26,8 @@ let handler = async (m, { conn }) => {
 
 }
 
-handler.help = ['بينج']
+handler.help = ['عاصمة']
 handler.tags = ['tools']
-handler.command = ['بينج', 'speed'] 
+handler.command = ['عاصمه', 'speed'] 
 
 export default handler
